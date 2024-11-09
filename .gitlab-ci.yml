@@ -1,0 +1,9 @@
+include:
+  - project: 'QITech/qi-infra/ops/ci_cd'
+    ref: main
+    file:
+      - qilocal/qilocal.yml
+
+cache:
+  paths:
+    - ~/.cache/pip/
